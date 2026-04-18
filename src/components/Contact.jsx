@@ -1,11 +1,11 @@
 import { Phone, Mail, Clock, MessageCircle } from 'lucide-react'
-import { getWhatsAppUrl } from '../config'
+import { getWhatsAppUrl, PHONE_DISPLAY, PHONE_E164_DIGITS } from '../config'
 
 const items = [
   {
     label: 'Telefone',
-    value: '+55 32 9199-4913',
-    href: 'tel:+553291994913',
+    value: PHONE_DISPLAY,
+    href: `tel:+${PHONE_E164_DIGITS}`,
     Icon: Phone,
   },
   {
