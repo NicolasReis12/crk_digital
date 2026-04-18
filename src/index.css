@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-accent: #26ef9c;
+  --color-navy: #131a2c;
+  --color-deep: #04355a;
+  --color-ice: #fafafa;
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+    background-color: var(--color-ice);
+    color: var(--color-navy);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    min-height: 100dvh;
+  }
+}
