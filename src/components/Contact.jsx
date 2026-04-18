@@ -4,8 +4,8 @@ import { getWhatsAppUrl } from '../config'
 const items = [
   {
     label: 'Telefone',
-    value: '+55 (11) 99999-9999',
-    href: 'tel:+5511999999999',
+    value: '+55 32 9199-4913',
+    href: 'tel:+553291994913',
     Icon: Phone,
   },
   {
