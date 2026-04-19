@@ -20,7 +20,7 @@ export function Header() {
           onClick={() => setOpen(false)}
         >
           <img
-            src="/logo.png"
+            src="logo_azul.png"
             alt="CRK Digital"
             className="h-9 w-auto sm:h-11"
           />

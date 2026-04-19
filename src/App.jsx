@@ -5,6 +5,7 @@ import { Services } from './components/Services'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { WhatsAppFloat } from './components/WhatsAppFloat'
+import { Carrousel } from './components/Carrousel'
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
       <main>
         <Hero />
         <About />
+        <Carrousel />
         <Services />
         <Contact />
+
       </main>
       <Footer />
       <WhatsAppFloat />

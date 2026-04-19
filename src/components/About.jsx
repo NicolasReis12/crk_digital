@@ -26,8 +26,8 @@ export function About() {
             aria-hidden
           />
           <img
-            src="/placeholder-image.jpg"
-            alt=""
+            src="apresentacao_caio.jpg"
+            alt="logo_azul.png"
             className="relative w-full rounded-2xl border border-navy/10 object-cover shadow-[0_24px_48px_-24px_rgba(19,26,44,0.35)]"
             width={640}
             height={420}
