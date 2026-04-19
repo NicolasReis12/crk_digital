@@ -37,7 +37,7 @@ const items = [
   },
   {
     label: 'Instagram',
-    value: 'CRk Marketing Digital',
+    value: 'CRK Marketing Digital',
     href: 'https://www.instagram.com/agenciacrkdigital/',
     Icon: InstagramIcon,
   },
