@@ -1,3 +1,4 @@
+import { createElement } from 'react'
 import {
   Share2,
   MousePointerClick,
@@ -68,7 +69,11 @@ export function Services() {
               className="group flex flex-col rounded-2xl border border-navy/8 bg-ice/90 p-6 shadow-[0_1px_0_rgba(19,26,44,0.04)] ring-1 ring-navy/5 transition hover:border-accent/30 hover:shadow-[0_20px_40px_-28px_rgba(19,26,44,0.25)]"
             >
               <div className="mb-4 flex size-11 items-center justify-center rounded-xl bg-navy text-accent transition group-hover:bg-deep">
-                <Icon className="size-5" strokeWidth={1.75} aria-hidden />
+                {createElement(Icon, {
+                  className: 'size-5',
+                  strokeWidth: 1.75,
+                  'aria-hidden': true,
+                })}
               </div>
               <h3 className="text-lg font-semibold text-navy">{title}</h3>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-navy/70 sm:text-base">

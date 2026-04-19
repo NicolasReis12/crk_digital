@@ -1,5 +1,26 @@
-import { Phone, Mail, Clock, MessageCircle } from 'lucide-react'
+import { createElement } from 'react'
+import { Phone, Mail, MessageCircle } from 'lucide-react'
 import { getWhatsAppUrl, PHONE_DISPLAY, PHONE_E164_DIGITS } from '../config'
+
+function InstagramIcon({ className, strokeWidth = 1.75 }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={strokeWidth}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden
+    >
+      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+  )
+}
 
 const items = [
   {
@@ -10,15 +31,15 @@ const items = [
   },
   {
     label: 'E-mail',
-    value: 'contato@crkdigital.com.br',
-    href: 'mailto:contato@crkdigital.com.br',
+    value: 'agenciacrkdigital@gmail.com',
+    href: 'mailto:agenciacrkdigital@gmail.com',
     Icon: Mail,
   },
   {
-    label: 'Horário de atendimento',
-    value: 'Segunda a sexta, 9h às 18h',
-    href: null,
-    Icon: Clock,
+    label: 'Instagram',
+    value: 'CRk Marketing Digital',
+    href: 'https://www.instagram.com/agenciacrkdigital/',
+    Icon: InstagramIcon,
   },
 ]
 
@@ -45,7 +66,11 @@ export function Contact() {
             >
               <div className="flex items-start gap-3">
                 <span className="flex size-10 shrink-0 items-center justify-center rounded-lg bg-accent/15 text-accent">
-                  <Icon className="size-5" strokeWidth={1.75} aria-hidden />
+                  {createElement(Icon, {
+                    className: 'size-5',
+                    strokeWidth: 1.75,
+                    'aria-hidden': true,
+                  })}
                 </span>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-wider text-ice/50">
