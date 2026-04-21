@@ -12,35 +12,35 @@ const services = [
   {
     title: 'Gestão de Redes Sociais',
     description:
-      'Planejamento e conteúdos que fortalecem a marca e geram autoridade.',
+      'Conteúdos estratégicos que posicionam sua marca e influenciam decisões de compra.',
     Icon: Share2,
   },
   {
     title: 'Tráfego Pago',
     description:
-      'Meta Ads, Google Ads e YouTube com segmentação inteligente.',
+      'Meta Ads, Google Ads e YouTube com foco em performance, escala e geração de leads qualificados.',
     Icon: MousePointerClick,
   },
   {
     title: 'Estratégias de Marketing Digital',
     description:
-      'Neuromarketing e foco no comportamento do consumidor.',
+      'Neuromarketing aplicado para entender o comportamento do consumidor e transformar atenção em vendas.',
     Icon: Brain,
   },
   {
     title: 'Branding',
-    description: 'Construção e fortalecimento da identidade da marca.',
+    description: 'Construção de marca forte, memorável e percebida como autoridade no mercado.',
     Icon: Palette,
   },
   {
     title: 'Produção de Conteúdo',
-    description: 'Roteiros e copies persuasivos.',
+    description: 'Roteiros e copies persuasivas que prendem atenção e geram ação.',
     Icon: FileText,
   },
   {
     title: 'Consultoria',
     description:
-      'Análise de negócio e direcionamento para aumentar conversões.',
+      'Diagnóstico estratégico e direcionamento claro para aumentar conversão e resultado.',
     Icon: Briefcase,
   },
 ]
@@ -57,8 +57,7 @@ export function Services() {
             Serviços
           </h2>
           <p className="mt-3 text-base text-navy/70 sm:text-lg">
-            Soluções integradas para marcas que buscam performance com
-            consistência visual e narrativa forte.
+            Soluções estratégicas para marcas que querem crescer com consistência, autoridade e foco em resultado.
           </p>
         </div>
 
