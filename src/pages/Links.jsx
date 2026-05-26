@@ -1,11 +1,10 @@
 export function Links() {
   const links = [
-    { label: 'WhatsApp', href: 'https://wa.me/5500000000000', emoji: '💬' },
-    { label: 'Site Principal', href: '/', emoji: '🏠' },
-
-    { label: 'Instagram', href: 'https://instagram.com', emoji: '📸' },
-    { label: 'LinkedIn', href: 'https://linkedin.com', emoji: '💼' },
-    { label: 'YouTube', href: 'https://youtube.com', emoji: '▶️' },
+    { label: 'WhatsApp', href: 'https://wa.me/553291994913?text=Ol%C3%A1!%20Gostaria%20de%20falar%20com%20um%20especialista%20da%20CRK%20Digital.', emoji: '💬' },
+    { label: 'Site CRK Digital', href: 'https://agenciacrkdigital.com.br', emoji: '🌐' },
+    { label: 'Instagram — O Caio Marketeiro', href: 'https://www.instagram.com/ocaiomarketeiro?igsh=MWJibGdpdmVpdGVtOQ%3D%3D&utm_source=qr', emoji: '📸' },
+    { label: 'Instagram — Agência CRK Digital', href: 'https://www.instagram.com/agenciacrkdigital?igsh=eDdodGtqdWJndnIx&utm_source=qr', emoji: '📸' },
+    { label: 'Ebook Gratuito', href: 'https://go.hotmart.com/C97203509S', emoji: '📖' },
   ]
 
   return (

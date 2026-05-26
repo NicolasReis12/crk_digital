@@ -8,6 +8,7 @@ import { Footer } from './components/Footer'
 import { WhatsAppFloat } from './components/WhatsAppFloat'
 import { Carrousel } from './components/Carrousel'
 import { Links } from './pages/Links'
+import { Ebook } from './components/Ebook'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         <About />
         <Carrousel />
         <Services />
+        <Ebook />
         <Contact />
       </main>
       <Footer />
