@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom'
 import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { About } from './components/About'
@@ -6,8 +7,9 @@ import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { WhatsAppFloat } from './components/WhatsAppFloat'
 import { Carrousel } from './components/Carrousel'
+import { Links } from './pages/Links'
 
-function App() {
+function Home() {
   return (
     <div className="min-h-dvh bg-ice text-navy antialiased">
       <Header />
@@ -17,11 +19,19 @@ function App() {
         <Carrousel />
         <Services />
         <Contact />
-
       </main>
       <Footer />
       <WhatsAppFloat />
     </div>
+  )
+}
+
+function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/links" element={<Links />} />
+    </Routes>
   )
 }
 
