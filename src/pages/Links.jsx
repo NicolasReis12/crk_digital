@@ -4,7 +4,7 @@ export function Links() {
     { label: 'Site CRK Digital', href: 'https://agenciacrkdigital.com.br', emoji: '🌐' },
     { label: 'Instagram — O Caio Marketeiro', href: 'https://www.instagram.com/ocaiomarketeiro?igsh=MWJibGdpdmVpdGVtOQ%3D%3D&utm_source=qr', emoji: '📸' },
     { label: 'Instagram — Agência CRK Digital', href: 'https://www.instagram.com/agenciacrkdigital?igsh=eDdodGtqdWJndnIx&utm_source=qr', emoji: '📸' },
-    { label: 'Ebook Gratuito', href: 'https://go.hotmart.com/C97203509S', emoji: '📖' },
+    { label: 'Ebook', href: 'https://go.hotmart.com/C97203509S', emoji: '📖' },
   ]
 
   return (
